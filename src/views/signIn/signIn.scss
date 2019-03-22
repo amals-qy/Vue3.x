@@ -1,0 +1,91 @@
+.login{
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+  background: #FFFFFF;
+}
+.land_module{
+  text-align:center;
+  width:330px;
+  height: 280px;
+  margin:auto;
+  position: absolute;
+  left:0px;
+  right:0px;
+  top:0px;
+  bottom:0px;
+  margin:auto;
+}
+.title_top{
+  letter-spacing: 8px;
+  font-size: 20px;
+  color: #999999;
+}
+.login_dl{
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 2px;
+  width:320px;
+  height:40px;
+  line-height:40px;
+  margin:auto;
+  span{
+    width:35px;
+    height:40px;
+    line-height:40px;
+    float:left;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 2px;
+    margin-left:10px;
+  }
+  input{
+    outline: none;
+    width:270px;
+    height:38px;
+    line-height:38px;
+    float:left;
+    border:0px;
+    font-size:14px;
+    text-indent:4px;
+    color:#333;
+    &:focus {
+      border: 0px!important;
+    }
+  }
+}
+.phe{
+  margin-top:30px;
+}
+.pwd{
+  margin-top:10px;
+}
+.title_err{
+  background: #FFF3F3;
+  border: 1px solid #FF4C4C;
+  border-radius: 2px;
+  width:320px;
+  height:40px;
+  line-height:40px;
+  margin:10px auto 0;
+  font-size: 14px;
+  color: #FF4C4C;
+  img{
+    width:16px;
+    height:16px;
+    vertical-align: middle;
+  }
+}
+.signIn{
+  margin-top:20px;
+  border:0px;
+  width:320px;
+  height:40px;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 8px;
+  outline:none;
+  cursor:pointer;
+  background: #EF334E;
+  border-radius: 2px;
+}

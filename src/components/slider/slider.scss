@@ -1,0 +1,44 @@
+.slidBar {
+  height: 100%;
+  overflow: hidden;
+}
+
+.el-menu {
+  border-right: 0px;
+  margin-top: 20px;
+}
+
+.el-menu-item {
+  height: 50px;
+  line-height: 50px;
+  &:hover {
+    background: #f1f3f7!important;
+  }
+  img {
+    width: 16px;
+    height: 16px;
+    margin: 18px 3px 0 10px;
+    float:left;
+  }
+  .ImgOpen {
+    display: block;
+  }
+  .ImgActive {
+    display: none;
+  }
+}
+
+.is-active {
+  background: #f1f3f7!important;
+  border-left: 4px solid #ef334e!important;
+  color: #ef334e!important;
+  img {
+    margin-left: 6px;
+  }
+  .ImgOpen {
+    display: none;
+  }
+  .ImgActive {
+    display:block;
+  }
+}
